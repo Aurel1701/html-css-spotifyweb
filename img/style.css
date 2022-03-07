@@ -13,6 +13,7 @@
 }
 body{
      font-family: 'Open Sans', sans-serif;
+     display: flex;
 }
     
 .sidebar{
@@ -129,7 +130,7 @@ body{
 
 }
 .user span{
-    color:rgba(163, 163, 163, 1);
+    color:rgba(255, 255, 255, 1);
     padding-left: 5px;
     
 }
@@ -137,7 +138,15 @@ body{
     color:rgba(163, 163, 163, 1);
     font-size: 25px;
     padding-top: 15px;
+
+}
+main{
+    width: 1200px;
+    background-color: rgba(20, 25, 34, 1);
     
-    
-    
+}
+.button-upgrade{
+    height: 90px;
+    background-color: rgba(8, 11, 18, 1);
+
 }
