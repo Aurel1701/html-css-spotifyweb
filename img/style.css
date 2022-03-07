@@ -2,38 +2,142 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
-  :root {
+:root {
       --colore-header:rgba(8, 11, 18, 1);
       --colore-main:rgba(20, 25, 34, 1);
       --colore-footer:rgba(40, 40, 40, 1);
       --colore-testo:rgba(255, 255, 255, 1);
       --colore-testo-left:rgba(163, 163, 163, 1);
-    }
-    body{
-        font-family: 'Open Sans', sans-serif;
-    }
+}
+body{
+     font-family: 'Open Sans', sans-serif;
+}
     
-    .sidebar{
+.sidebar{
         width: 230px;
         height: 1000px;
         background-color:rgba(0, 0, 0, 1);
-    }
-    .img-logo{
+        padding-left: 15px;
+}
+.img-logo{
         height: 40px;
         width: 40px;
-        margin-left: 10px;
-    }
-    .name-logo{
+        
+}
+.name-logo{
         color:rgba(255, 255, 255, 1);
-        font-size: 25px;
-        font-family: 'Open Sans', sans-serif;
+        font-size: 23px;
         padding-left: 5px;
-    }
-    .logo{
+}
+.logo{
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding-top: 10px;
-    }
+        padding-top: 20px;
+}
+.house{
+        padding-top: 30px;
+
+}
+ .house span{
+       color:rgba(163, 163, 163, 1);
+       padding-left: 5px;
+    
+}
+.fa-house{
+        color:rgba(163, 163, 163, 1);
+        font-size: 25px;
+
+}
+.search{
+        padding-top: 15px;
+
+}
+.search span{
+        color:rgba(163, 163, 163, 1);
+        padding-left: 5px;
+    
+}
+.fa-magnifying-glass{
+         color:rgba(163, 163, 163, 1);
+         font-size: 25px;
+}
+.books{
+        padding-top: 15px;
+
+}
+ .books span{
+        color:rgba(163, 163, 163, 1);
+        padding-left: 5px; 
+        
+}
+.fa-book{
+        color:rgba(163, 163, 163, 1);
+        font-size: 25px;
+}
+.play h4{
+    color: rgba(255, 255, 255, 1);
+    padding-top: 20px;
+
+}
+.add{
+    padding-top: 15px;
+
+}
+.add span{
+    color:rgba(163, 163, 163, 1);
+    padding-left: 5px;
+    
+}
+.fa-plus{
+    background-color:rgba(163, 163, 163, 1);
+    font-size: 25px;
+    padding: 8px;
+}
+.playlist{
+    padding-top: 20px;
+    
+}
+.playlist h4{
+    color:rgba(163, 163, 163, 1);
+    padding-top: 15px;
+    
+}
+.installa-app{
+    margin-top: 330px;
+
+}
+.installa-app span{
+    color:rgba(163, 163, 163, 1);
+    padding-left: 5px; 
+    
+}
+.installa-app hr{
+    color:rgba(163, 163, 163, 1);
+    width: 90%;
+    margin-top: 10px; 
+    
+}
+.fa-circle-arrow-down{
+    color:rgba(163, 163, 163, 1);
+    font-size: 15px;
+}
+.user{
+    padding-top: 5px;
+
+}
+.user span{
+    color:rgba(163, 163, 163, 1);
+    padding-left: 5px;
+    
+}
+.fa-circle-user{
+    color:rgba(163, 163, 163, 1);
+    font-size: 25px;
+    padding-top: 15px;
+    
+    
+    
+}
