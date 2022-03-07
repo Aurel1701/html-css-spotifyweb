@@ -160,6 +160,20 @@ main{
     background-color:rgba(20, 25, 34, 1) ;
     color: white;
     border-color:white ;
-   
-  
+}
+.info-album{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.info-album h4{
+   color: var(--colore-testo-left);
+   padding-left: 5px;
+   font-size: 15px;
+}
+.evidenza hr{
+    text-align: center;
+    width: 30%;
+
 }
