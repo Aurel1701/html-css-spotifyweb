@@ -11,3 +11,29 @@
       --colore-testo:rgba(255, 255, 255, 1);
       --colore-testo-left:rgba(163, 163, 163, 1);
     }
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .sidebar{
+        width: 230px;
+        height: 1000px;
+        background-color:rgba(0, 0, 0, 1);
+    }
+    .img-logo{
+        height: 40px;
+        width: 40px;
+        margin-left: 10px;
+    }
+    .name-logo{
+        color:rgba(255, 255, 255, 1);
+        font-size: 25px;
+        font-family: 'Open Sans', sans-serif;
+        padding-left: 5px;
+    }
+    .logo{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding-top: 10px;
+    }
