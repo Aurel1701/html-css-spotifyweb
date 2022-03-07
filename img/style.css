@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+      --colore-header:rgba(8, 11, 18, 1);
+      --colore-main:rgba(20, 25, 34, 1);
+      --colore-footer:rgba(40, 40, 40, 1);
+      --colore-testo:rgba(255, 255, 255, 1);
+      --colore-testo-left:rgba(163, 163, 163, 1);
+    }
