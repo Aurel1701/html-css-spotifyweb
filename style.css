@@ -14,6 +14,7 @@
 body{
      font-family: 'Open Sans', sans-serif;
      
+     
 }
 .flex-contain{
     display: flex;
@@ -171,6 +172,7 @@ footer{
     height: 90px;
     width: 100vw;
     background-color: var(--colore-footer);
+   
 }
 .button-upgrade{
     height: 80px;
@@ -324,6 +326,7 @@ footer{
 .sinister{
     display: flex;
     align-items: center;
+    width: 25%;
     padding-top: 20px;
     padding-left: 10px;
 }
@@ -348,8 +351,46 @@ footer{
 .play{
     display: flex;
     justify-content: center;
-
+    width: 50%;
     color: var(--colore-testo);
 }
+.icon-play i{
+    padding-top: 15px;
+    font-size: 20px;
+
+}
+.contain-flex2{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.volume{
+    width: 25%;
+}
+.minute{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.minute hr{
+    width: 100px;
+    
+}
+.fa-backward-step{
+    padding-left: 25px;
+}
+.fa-circle-play{
+    padding-left: 25px;
+}
+.fa-forward-step{
+    padding-left: 25px;
+}
+.fa-arrow-rotate-right{
+    padding-left: 25px;
+
+}
+
+
 
 
