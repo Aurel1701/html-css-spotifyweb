@@ -14,7 +14,6 @@
 body{
      font-family: 'Open Sans', sans-serif;
      
-     
 }
 .flex-contain{
     display: flex;
@@ -25,7 +24,7 @@ body{
 .sidebar{
         width: 230px;
         background-color:rgba(0, 0, 0, 1);
-        height: 1200px;
+        height: 100vh;
         
 }
 .img-logo{
@@ -111,9 +110,10 @@ body{
     padding: 8px;
 }
 .playlist{
-    padding-top: 20px;
+    margin-top: 40px;
     padding-left: 15px;
-    
+    overflow-y: scroll;
+    max-height: 200px;
     
 }
 .playlist h4{
@@ -122,7 +122,7 @@ body{
     
 }
 .installa-app{
-    margin-top: 530px;
+    margin-top: 450px;
     padding-left: 15px;
 
 }
@@ -158,9 +158,13 @@ body{
     padding-top: 15px;
 
 }
+.page{
+    background-color: black;
+}
 header{
     width: 230px;
-     
+    height: 100vh;
+    
 }
 main{
     width: 1200px;
@@ -170,9 +174,11 @@ main{
 }
 footer{
     height: 90px;
-    width: 100vw;
     background-color: var(--colore-footer);
-   
+    position: fixed;
+    bottom: 0px;
+    width: 100vw;
+
 }
 .button-upgrade{
     height: 80px;
@@ -362,6 +368,7 @@ footer{
 .contain-flex2{
     display: flex;
     justify-content: space-between;
+    
    
 }
 .volume{
@@ -390,6 +397,7 @@ footer{
     padding-left: 25px;
 
 }
+
 
 
 
