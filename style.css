@@ -13,14 +13,21 @@
 }
 body{
      font-family: 'Open Sans', sans-serif;
-     display: flex;
+     
+}
+.flex-contain{
+    display: flex;
+
+}
+header{
+    width: 230px;
 }
     
 .sidebar{
         width: 230px;
         height: 1000px;
         background-color:rgba(0, 0, 0, 1);
-        padding-left: 15px;
+        
 }
 .img-logo{
         height: 40px;
@@ -37,12 +44,14 @@ body{
         justify-content: flex-start;
         align-items: center;
         padding-top: 20px;
+        padding-left: 15px;
 }
 .house{
-        padding-top: 30px;
-
+        margin-top: 30px;
+        border-left: 3px solid greenyellow;
 }
- .house span{
+
+.house span{
        color:rgba(163, 163, 163, 1);
        padding-left: 5px;
     
@@ -50,10 +59,12 @@ body{
 .fa-house{
         color:rgba(163, 163, 163, 1);
         font-size: 25px;
+        padding-left: 15px;
 
 }
 .search{
         padding-top: 15px;
+        padding-left: 15px;
 
 }
 .search span{
@@ -67,6 +78,7 @@ body{
 }
 .books{
         padding-top: 15px;
+        padding-left: 15px;
 
 }
  .books span{
@@ -81,10 +93,12 @@ body{
 .play h4{
     color: rgba(255, 255, 255, 1);
     padding-top: 20px;
+    padding-left: 15px;
 
 }
 .add{
     padding-top: 15px;
+    padding-left: 15px;
 
 }
 .add span{
@@ -99,6 +113,8 @@ body{
 }
 .playlist{
     padding-top: 20px;
+    padding-left: 15px;
+    
     
 }
 .playlist h4{
@@ -108,6 +124,7 @@ body{
 }
 .installa-app{
     margin-top: 330px;
+    padding-left: 15px;
 
 }
 .installa-app span{
@@ -127,16 +144,18 @@ body{
 }
 .user{
     padding-top: 5px;
+    padding-left: 15px;
 
 }
 .user span{
     color:rgba(255, 255, 255, 1);
     padding-left: 5px;
     
+    
 }
 .fa-circle-user{
     color:rgba(163, 163, 163, 1);
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 15px;
 
 }
@@ -169,11 +188,89 @@ main{
 }
 .info-album h4{
    color: var(--colore-testo-left);
-   padding-left: 5px;
+   padding-left: 25px;
    font-size: 15px;
 }
-.evidenza hr{
-    text-align: center;
-    width: 30%;
 
+.played{
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.played h2{
+    color: var(--colore-testo);
+}
+
+.container-1{
+    padding-top: 25px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.col-1{
+    height: 180px;
+    width: 180px; 
+}
+.col-1 img{
+    height: 180px;
+    width: 180px; 
+    
+}
+.col-1 h3{
+    color: var(--colore-testo);
+    padding-top: 5px;
+    text-align: center;
+}
+
+.col-1 h4{
+    color: var(--colore-testo);
+    padding-top: 5px;
+    text-align: center;
+    
+}
+.col-1 h5{
+    color: var(--colore-testo-left);
+    padding-top: 5px;
+    text-align: center;
+    
+}
+
+.john-doe{
+    padding-left: 15px;
+    margin-top: 130px;
+}
+
+.john-doe h2{
+    color: var(--colore-testo);
+}
+
+.john-doe h5{
+    color: var(--colore-testo-left);
+    padding-top: 5px;
+
+}
+
+.container-2{
+    padding-top: 25px;
+    display: flex;
+     
+}
+
+.col-2{
+    height: 180px;
+    width: 180px; 
+    margin-left: 15px;
+}
+
+.col-2 img{
+    height: 180px;
+    width: 180px;
+    
+}
+
+.col-2 h3{
+    color: var(--colore-testo);
+    padding-top: 5px;
+    text-align: center;
+    
 }
