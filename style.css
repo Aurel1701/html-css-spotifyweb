@@ -19,14 +19,12 @@ body{
     display: flex;
 
 }
-header{
-    width: 230px;
-}
+
     
 .sidebar{
         width: 230px;
-        height: 1000px;
         background-color:rgba(0, 0, 0, 1);
+        height: 1200px;
         
 }
 .img-logo{
@@ -59,7 +57,7 @@ header{
 .fa-house{
         color:rgba(163, 163, 163, 1);
         font-size: 25px;
-        padding-left: 15px;
+        padding-left: 10px;
 
 }
 .search{
@@ -123,7 +121,7 @@ header{
     
 }
 .installa-app{
-    margin-top: 330px;
+    margin-top: 530px;
     padding-left: 15px;
 
 }
@@ -159,10 +157,20 @@ header{
     padding-top: 15px;
 
 }
+header{
+    width: 230px;
+     
+}
 main{
     width: 1200px;
     background-color: rgba(20, 25, 34, 1);
+    height: 1200px;
     
+}
+footer{
+    height: 90px;
+    width: 100vw;
+    background-color: var(--colore-footer);
 }
 .button-upgrade{
     height: 80px;
@@ -274,3 +282,74 @@ main{
     text-align: center;
     
 }
+.artisti{
+    padding-left: 15px;
+    margin-top: 60px;
+}
+
+.artisti h2{
+    color: var(--colore-testo);
+}
+
+.artisti h5{
+    color: var(--colore-testo-left);
+    padding-top: 5px;
+
+}
+.container-3{
+    padding-top: 25px;
+    display: flex;
+     
+}
+
+.col-3{
+    height: 180px;
+    width: 180px; 
+    margin-left: 15px;
+}
+
+.col-3 img{
+    height: 180px;
+    width: 180px;
+    border-radius: 100px;
+    
+}
+
+.col-3 h3{
+    color: var(--colore-testo);
+    padding-top: 5px;
+    text-align: center;
+    
+}
+.sinister{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.info-sinister h3{
+    color: var(--colore-testo);
+    padding-left: 10px;
+}
+.info-sinister h5{
+    color: var(--colore-testo-left);
+    padding-left: 10px;
+}
+.sinister img{
+    width: 50px;
+    height: 50px;
+}
+.fa-heart{
+    padding-left: 40px;
+}
+.fa-folder{
+    padding-left: 10px;
+}
+.play{
+    display: flex;
+    justify-content: center;
+
+    color: var(--colore-testo);
+}
+
+
