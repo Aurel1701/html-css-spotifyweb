@@ -16,6 +16,7 @@ body{
      
 }
 .flex-contain{
+    height: calc(100vh - 90px);
     display: flex;
 
 }
@@ -24,7 +25,8 @@ body{
 .sidebar{
         width: 230px;
         background-color:rgba(0, 0, 0, 1);
-        height: 100vh;
+        height: 100%;
+        overflow: hidden;
         
 }
 .img-logo{
@@ -91,7 +93,7 @@ body{
 .play h4{
     color: rgba(255, 255, 255, 1);
     padding-top: 20px;
-    padding-left: 15px;
+    padding-right: 10px;
 
 }
 .add{
@@ -122,7 +124,7 @@ body{
     
 }
 .installa-app{
-    margin-top: 450px;
+    
     padding-left: 15px;
 
 }
@@ -163,17 +165,18 @@ body{
 }
 header{
     width: 230px;
-    height: 100vh;
+    height: 100%;
     
 }
 main{
-    width: 1200px;
+    width: calc(100% - 230px);
     background-color: rgba(20, 25, 34, 1);
-    height: 1200px;
+    height: 100%;
+    overflow: hidden;
     
 }
 footer{
-    height: 90px;
+    height: 85px;
     background-color: var(--colore-footer);
     position: fixed;
     bottom: 0px;
