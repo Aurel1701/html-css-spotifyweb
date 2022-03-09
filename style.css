@@ -175,14 +175,19 @@ main{
     overflow: hidden;
     
 }
+.music{
+    overflow-y: auto;
+    height: calc(100% - 90px);
+}
 footer{
-    height: 85px;
+    height: 90px;
     background-color: var(--colore-footer);
     position: fixed;
     bottom: 0px;
     width: 100vw;
 
 }
+
 .button-upgrade{
     height: 80px;
     background-color: rgba(8, 11, 18, 1);
@@ -353,9 +358,11 @@ footer{
 }
 .fa-heart{
     padding-left: 40px;
+    color: gray;
 }
 .fa-folder{
     padding-left: 10px;
+    color:gray;
 }
 .play{
     display: flex;
@@ -374,13 +381,30 @@ footer{
     
    
 }
+
 .volume{
     width: 25%;
+}
+
+.column-3{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+
 }
 .minute{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 10px;
+
+}
+.second-1{
+    padding-right: 10px;
+
+}
+.second-2{
+    padding-left: 10px;
 
 }
 .minute hr{
@@ -392,6 +416,7 @@ footer{
 }
 .fa-circle-play{
     padding-left: 25px;
+    
 }
 .fa-forward-step{
     padding-left: 25px;
@@ -400,6 +425,41 @@ footer{
     padding-left: 25px;
 
 }
+.bar-music{
+    width: 500px;
+    height: 5px;
+    background-color: white;
+    border-radius: 20px;
+}
+.bar-music-2{
+    width: 150px;
+    height: 5px;
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+.volume{
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding-top: 20px;
+}
+.fa-volume-high{
+    color: white;
+    padding-right: 10px;
+
+}
+.fa-list{
+    padding-right: 10px;
+    color: white;
+
+}
+.fa-tv{
+    padding-right: 10px;
+    color: white;
+
+}
+
 
 
 
