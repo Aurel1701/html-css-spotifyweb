@@ -173,12 +173,12 @@ main{
     background-color: rgba(20, 25, 34, 1);
     height: 100%;
     overflow: hidden;
+    overflow-y: scroll;
+    overflow-x:hidden ;
+
     
 }
-.music{
-    overflow-y: auto;
-    height: calc(100% - 90px);
-}
+
 footer{
     height: 90px;
     background-color: var(--colore-footer);
@@ -204,6 +204,11 @@ footer{
     color: white;
     border-color:white ;
 }
+.button-upgrade button:hover {
+    transform: scale(1.1);
+}
+
+
 .info-album{
     display: flex;
     justify-content: center;
@@ -212,7 +217,7 @@ footer{
 }
 .info-album h4{
    color: var(--colore-testo-left);
-   padding-left: 25px;
+   margin-left: 25px;
    font-size: 15px;
 }
 
@@ -232,6 +237,7 @@ footer{
 }
 
 .col-1{
+    position: relative;
     height: 180px;
     width: 180px; 
 }
@@ -457,8 +463,92 @@ footer{
 .fa-tv{
     padding-right: 10px;
     color: white;
-
 }
+
+h4:hover {
+    color: white;
+}
+span:hover {
+    color: white;
+}
+.bar-music:hover {
+    background-color: greenyellow;
+}
+.icon-play i:hover {
+    transform: scale(1.3);
+}
+.fa-folder:hover {
+    color: white;
+}
+.fa-heart:hover {
+    color: white;
+}
+.info-sinister h5:hover {
+    color: white;
+    text-decoration: underline;
+}
+.bar-music-2:hover {
+    background-color: greenyellow;
+}
+.circle-play-mouse {
+    color: white;
+    position: absolute;
+    top: 68px;
+    bottom: 50;
+    left: 41px;
+    font-size: 50px;
+    display:none;
+}
+.col-1 img:hover {
+    opacity: 0.6;
+    transition: 0.7s;
+}
+.opac:hover .circle-play-mouse{ 
+        display:block;
+        opacity: 1;
+        transition: 0.7s;
+}
+.border-green{
+    border-bottom: 2px solid greenyellow;
+}
+@media screen and (max-width: 1024px) {
+    .col-1 h4 {
+        max-width: 150px;
+    }
+    .col-1 h5 {
+        max-width: 100px;
+    }
+    .col-1 h3 {
+        max-width: 100px;
+    }
+    .container-1 {
+        justify-content: left;
+        flex-wrap: wrap;
+    }
+    .col-1 img {
+        height: 120px;
+        width: 120px;
+    }
+    .col-1 {
+        max-width: 120px;
+        margin: 5px;
+    }
+    .regular{
+        margin-bottom: 130px;
+    }
+    .info-album h4 {
+        font-size: 10px;
+    }
+    .info-album {
+        flex-wrap: wrap;
+    }
+    .bar-music {
+        width: 200px;
+    }
+    .fa-heart {
+        padding-left: 0px;
+    }
+  }
 
 
 
