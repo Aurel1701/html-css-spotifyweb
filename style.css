@@ -128,7 +128,9 @@ body{
 
 }
 .column-2{
-    margin-top: 40px;
+    flex-flow: column;
+    display: flex;
+    justify-content: space-between;
 }
 .installa-app span{
     color:rgba(163, 163, 163, 1);
