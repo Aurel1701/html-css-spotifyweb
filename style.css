@@ -123,10 +123,12 @@ body{
     padding-top: 15px;
     
 }
-.installa-app{
-    
+.installa-app{  
     padding-left: 15px;
 
+}
+.column-2{
+    margin-top: 40px;
 }
 .installa-app span{
     color:rgba(163, 163, 163, 1);
@@ -385,7 +387,6 @@ footer{
     display: flex;
     justify-content: space-between;
     
-   
 }
 
 .volume{
@@ -595,6 +596,7 @@ span:hover {
         flex-flow: column;
         justify-content: center;
         align-items: center;
+        margin-right: 30px;
     }
     .col-2 img {
         height: 120px;
