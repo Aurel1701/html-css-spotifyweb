@@ -12,16 +12,16 @@
       --colore-testo-left:rgba(163, 163, 163, 1);
 }
 body{
-     font-family: 'Open Sans', sans-serif;
-     
+     font-family: 'Open Sans', sans-serif; 
 }
+
+
 .flex-contain{
     height: calc(100vh - 90px);
     display: flex;
 
 }
-
-    
+  
 .sidebar{
         width: 230px;
         background-color:rgba(0, 0, 0, 1);
@@ -118,7 +118,6 @@ body{
 .playlist{
     margin-top: 40px;
     padding-left: 15px;
-    overflow-y: scroll;
     max-height: 200px;
     
 }
@@ -131,7 +130,9 @@ body{
     padding-left: 15px;
 
 }
-
+.column-2{
+    margin-bottom: 10px;
+}
 .installa-app span{
     color:rgba(163, 163, 163, 1);
     padding-left: 5px; 
@@ -644,6 +645,10 @@ span:hover {
         margin-top: 6px;
         padding-left: 0;
     }
+    .fa-circle-arrow-down{
+        padding-left: 2px;
+
+    }
     .col-1 {
         margin-right: 15px;
     }
@@ -655,6 +660,12 @@ span:hover {
         flex-flow: column;
     }
 
+}
+@media screen and (max-height: 800px) {
+    
+    .playlist{
+        overflow-y: scroll;
+    }
 }
 
 
